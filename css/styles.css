@@ -70,6 +70,7 @@ img {
 .footer {
     height: 50px;
     margin-top: -50px;
+    text-align: center;
 }
 
 @media (min-width: 480px) {
@@ -86,6 +87,8 @@ img {
     .left {
         width: 40%;
         order: 1;
+        position: absolute;
+        top: 300px;
     }
 
     h2 {
@@ -93,13 +96,37 @@ img {
     }
 
     .thumbs {
-        width: 40%;
+        width: 50%;
         height: auto;
         order: 2;
     }
 
     .info {
         display: none;
+    }
+
+    .thumb1 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+    }
+
+    .thumb2 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 300px;
+        right: 250px;
+    }
+
+    .thumb3 {
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 400px;
+        right: 50px;
     }
 
 }
