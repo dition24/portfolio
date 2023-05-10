@@ -73,7 +73,7 @@ img {
     text-align: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 810px) {
 
     .content-inside {
         display: flex;
