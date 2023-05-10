@@ -74,4 +74,32 @@ img {
 
 @media (min-width: 480px) {
 
+    .content-inside {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav {
+        width: 100%;
+    }
+
+    .left {
+        width: 40%;
+        order: 1;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .thumbs {
+        width: 40%;
+        height: auto;
+        order: 2;
+    }
+
+    .info {
+        display: none;
+    }
+
 }
