@@ -1,5 +1,5 @@
 html, body {
-    background: linear-gradient(-45deg, #abbaab, #ffffff);
+    background: #0f0e17;
     background-attachment: fixed;
     height: 100%;
     margin: 0;
@@ -9,19 +9,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #ff4949;
+    /* background-color: #ff4949; */
     border-radius: 10px;
-    color: #ffffff;
+    color: #fffffe;
     height: 40px;
     width: 100%;
 }
 
 nav > a {
-    background: linear-gradient(-45deg, #abbaab, #ffffff);
+    /* background: #0f0e17; */
     background-attachment: fixed;
     border-radius: 10px;
     padding: 5px;
-    color: #ff4949;
+    color: #fffffe;
+    text-decoration: none;
 }
 
 .content {
@@ -34,18 +35,18 @@ nav > a {
 }
 
 h1 {
-    color: #ff4949;
+    color: #fffffe;
 }
 
 .intro {
-    background-color: #ff4949;
+    /* background-color: #ff4949; */
     border-radius: 10px;
     padding: 5px;
-    color: #ffffff;
+    color: #a7a9be;
 }
 
 h2 {
-    color: #ff4949;
+    color: #fffffe;
 }
 
 img {
@@ -54,23 +55,24 @@ img {
 }
 
 .info {
-    background-color: #ff4949;
+    /* background-color: #ff4949; */
     border-radius: 10px;
     padding: 5px;
-    color: #ffffff;
+    color: #a7a9be;
 }
 
 .about {
-    background-color: #ff4949;
+    /* background-color: #ff4949; */
     border-radius: 10px;
     padding: 5px;
-    color: #ffffff;
+    color: #a7a9be;
 }
 
 .footer {
     height: 50px;
     margin-top: -50px;
     text-align: center;
+    color: #a7a9be;
 }
 
 @media (min-width: 810px) {
@@ -88,7 +90,7 @@ img {
         width: 40%;
         order: 1;
         position: absolute;
-        top: 300px;
+        top: 15rem;
     }
 
     h2 {
@@ -109,24 +111,24 @@ img {
         width: 25%;
         height: auto;
         position: absolute;
-        top: 200px;
-        right: 50px;
+        top: 10rem;
+        right: 3rem;
     }
 
     .thumb2 {
         width: 25%;
         height: auto;
         position: absolute;
-        top: 300px;
-        right: 250px;
+        top: 16rem;
+        right: 15rem;
     }
 
     .thumb3 {
         width: 25%;
         height: auto;
         position: absolute;
-        top: 400px;
-        right: 50px;
+        top: 24rem;
+        right: 3rem;
     }
 
 }
