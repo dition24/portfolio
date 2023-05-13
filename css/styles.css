@@ -1,6 +1,5 @@
 html, body {
     background: #0f0e17;
-    background-attachment: fixed;
     height: 100%;
     margin: 0;
 }
@@ -9,18 +8,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* background-color: #ff4949; */
-    border-radius: 10px;
     color: #fffffe;
     height: 40px;
     width: 100%;
 }
 
 nav > a {
-    /* background: #0f0e17; */
-    background-attachment: fixed;
-    border-radius: 10px;
-    padding: 5px;
     color: #fffffe;
     text-decoration: none;
 }
@@ -39,8 +32,6 @@ h1 {
 }
 
 .intro {
-    /* background-color: #ff4949; */
-    border-radius: 10px;
     padding: 5px;
     color: #a7a9be;
 }
@@ -55,15 +46,11 @@ img {
 }
 
 .info {
-    /* background-color: #ff4949; */
-    border-radius: 10px;
     padding: 5px;
     color: #a7a9be;
 }
 
 .about {
-    /* background-color: #ff4949; */
-    border-radius: 10px;
     padding: 5px;
     color: #a7a9be;
 }
@@ -77,7 +64,7 @@ img {
 
 @media (min-width: 810px) {
 
-    .content-inside {
+    /* .content-inside {
         display: flex;
         flex-wrap: wrap;
     }
@@ -101,6 +88,7 @@ img {
         width: 50%;
         height: auto;
         order: 2;
+        position: relative;
     }
 
     .info {
@@ -129,6 +117,6 @@ img {
         position: absolute;
         top: 24rem;
         right: 3rem;
-    }
+    } */
 
 }
