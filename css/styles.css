@@ -2,20 +2,30 @@ html, body {
     background: #0f0e17;
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #0f0e17;
     color: #fffffe;
     height: 40px;
     width: 100%;
+    position: sticky;
+    top: 0px;
 }
 
 nav > a {
-    color: #fffffe;
+    color: #f25f4c;
     text-decoration: none;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: larger;
+    color: #ff8906;
 }
 
 .content {
@@ -54,7 +64,7 @@ img {
 
 .landing-right > div {
     flex-shrink: 0;
-    width: 60vh;
+    width: 100%;
     height: auto;
 }
 
