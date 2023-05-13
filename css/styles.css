@@ -136,4 +136,28 @@ img {
         margin-left: 2rem;
     }
     
+    .project1 {
+        display: flex;
+    }
+
+    .project1 > img {
+        width: 50%;
+    }
+
+    .project2 {
+        display: flex;
+    }
+
+    .project2 > img {
+        width: 50%;
+    }
+
+    .project3 {
+        display: flex;
+    }
+
+    .project3 > img {
+        width: 50%;
+    }
+
 }
