@@ -45,8 +45,20 @@ img {
     height: auto;
 }
 
+.landing-right {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: mandatory;
+}
+
+.landing-right > div {
+    flex-shrink: 0;
+    width: 60vh;
+    height: auto;
+}
+
 .info {
-    padding: 5px;
     color: #a7a9be;
 }
 
