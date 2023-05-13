@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    scroll-padding-top: 40px;
 }
 
 nav {
@@ -55,6 +56,10 @@ img {
     height: auto;
 }
 
+.landing {
+    margin-bottom: 5rem;
+}
+
 .landing-right {
     display: flex;
     overflow-x: auto;
@@ -75,6 +80,7 @@ img {
 .about {
     padding: 5px;
     color: #a7a9be;
+    margin-bottom: 5rem;
 }
 
 .footer {
@@ -84,61 +90,50 @@ img {
     color: #a7a9be;
 }
 
+.projects {
+    margin-bottom: 5rem;
+}
+
 @media (min-width: 810px) {
 
-    /* .content-inside {
+    .content-inside {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .landing {
+        margin-top: 6rem;
         display: flex;
-        flex-wrap: wrap;
-    }
-    
-    nav {
-        width: 100%;
     }
 
-    .left {
-        width: 40%;
-        order: 1;
-        position: absolute;
-        top: 15rem;
-    }
-
-    h2 {
-        display: none;
-    }
-
-    .thumbs {
+    .landing-left {
         width: 50%;
-        height: auto;
-        order: 2;
-        position: relative;
+        margin-top: 5rem;
     }
 
-    .info {
-        display: none;
+    .landing-right {
+        display: block;
+        width: 50%;
     }
 
     .thumb1 {
-        width: 25%;
-        height: auto;
-        position: absolute;
-        top: 10rem;
-        right: 3rem;
+        border: 2px solid #e53170;
+        width: 15rem;
+        margin-left: 2rem;
+        margin-bottom: -4rem;
     }
 
     .thumb2 {
-        width: 25%;
-        height: auto;
-        position: absolute;
-        top: 16rem;
-        right: 15rem;
+        border: 2px solid #e53170;
+        width: 15rem;
+        margin-left: 15rem;
+        margin-bottom: -4rem;
     }
 
     .thumb3 {
-        width: 25%;
-        height: auto;
-        position: absolute;
-        top: 24rem;
-        right: 3rem;
-    } */
-
+        border: 2px solid #e53170;
+        width: 15rem;
+        margin-left: 2rem;
+    }
+    
 }
