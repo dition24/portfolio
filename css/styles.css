@@ -77,6 +77,10 @@ img {
     color: #a7a9be;
 }
 
+.proj2 {
+    display: none;
+}
+
 .about {
     padding: 5px;
     color: #a7a9be;
@@ -112,32 +116,37 @@ img {
     }
 
     .landing-right {
+        overflow-x: visible;
         display: block;
         width: 50%;
     }
 
     .thumb1 {
         border: 2px solid #e53170;
-        width: 15rem;
+        width: 50%;
         margin-left: 2rem;
         margin-bottom: -4rem;
     }
 
     .thumb2 {
         border: 2px solid #e53170;
-        width: 15rem;
+        width: 50%;
         margin-left: 15rem;
         margin-bottom: -4rem;
     }
 
     .thumb3 {
         border: 2px solid #e53170;
-        width: 15rem;
+        width: 50%;
         margin-left: 2rem;
     }
     
     .project1 {
         display: flex;
+    }
+
+    .projdesc1 {
+        width: 50%;
     }
 
     .project1 > img {
@@ -148,12 +157,28 @@ img {
         display: flex;
     }
 
+    .projdesc2 {
+        width: 50%;
+    }
+
     .project2 > img {
         width: 50%;
     }
 
+    .proj2 {
+        display: block;
+    }
+
+    .proj2mb {
+        display: none;
+    }
+
     .project3 {
         display: flex;
+    }
+
+    .projdesc3 {
+        width: 50%;
     }
 
     .project3 > img {
