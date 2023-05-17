@@ -122,47 +122,56 @@ img {
     }
 
     .thumb1 {
-        border: 2px solid #e53170;
+        /* border: 2px solid #e53170; */
+        box-shadow: -1rem -1rem #e53170;
         width: 50%;
         margin-left: 2rem;
         margin-bottom: -4rem;
     }
 
     .thumb2 {
-        border: 2px solid #e53170;
+        /* border: 2px solid #e53170; */
+        box-shadow: -1rem -1rem #e53170;
         width: 50%;
         margin-left: 15rem;
         margin-bottom: -4rem;
     }
 
     .thumb3 {
-        border: 2px solid #e53170;
+        /* border: 2px solid #e53170; */
+        box-shadow: -1rem -1rem #e53170;
         width: 50%;
         margin-left: 2rem;
     }
     
     .project1 {
         display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
     }
 
     .projdesc1 {
-        width: 50%;
+        width: 45%;
     }
 
     .project1 > img {
-        width: 50%;
+        width: 45%;
+        box-shadow: -1rem -1rem #e53170;
     }
 
     .project2 {
         display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
     }
 
     .projdesc2 {
-        width: 50%;
+        width: 45%;
     }
 
     .project2 > img {
-        width: 50%;
+        width: 45%;
+        box-shadow: -1rem -1rem #e53170;
     }
 
     .proj2 {
@@ -175,14 +184,17 @@ img {
 
     .project3 {
         display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
     }
 
     .projdesc3 {
-        width: 50%;
+        width: 45%;
     }
 
     .project3 > img {
-        width: 50%;
+        width: 45%;
+        box-shadow: -1rem -1rem #e53170;
     }
 
 }
