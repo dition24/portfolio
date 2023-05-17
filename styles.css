@@ -120,6 +120,10 @@ img {
         margin-right: 2rem;
     }
 
+    .name {
+        text-align: inherit;
+    }
+
     .landing {
         margin-top: 6rem;
         display: flex;
