@@ -84,11 +84,13 @@ img {
 }
 
 .applink {
-    color:#f25f4c
+    color:#f25f4c;
+    text-decoration: none;
 }
 
 .codelink {
-    color:#f25f4c
+    color:#f25f4c;
+    text-decoration: none;
 }
 
 .about {
