@@ -83,6 +83,14 @@ img {
     display: none;
 }
 
+.applink {
+    color:#f25f4c
+}
+
+.codelink {
+    color:#f25f4c
+}
+
 .about {
     padding: 5px;
     color: #a7a9be;
